@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = (TextView) findViewById(R.id.sample_text);
        // tv.setText(stringFromJNI()+stringGetNumber()+"1+2="+addFromJni(1,2));
         tv.setText(stringGetNumber(4,2));
-
+        tv.append("\n"+content);
     }
 
 //    public native void updateContent() ;
