@@ -1,1 +1,1 @@
-include ':app', ':ffmpeg_study'
+include ':app', ':ffmpeg_study', ':surfaceviewdemo'
